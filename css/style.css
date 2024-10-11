@@ -96,6 +96,7 @@ button:hover {
 }
 
 footer {
+    display: none;
     background-color: #007396; /* Fondo del pie de página en azul Java */
     color: white;
     text-align: center;
