@@ -141,6 +141,7 @@ footer {
 .content-articles:hover{
     background-color: #f0db4f;
     height: auto;
+    cursor: pointer;
 }
 
 .harticle{
@@ -183,5 +184,13 @@ footer {
 
 .desplegar{
     height: auto;
+    background-color: #f0db4f;
+    height: auto;
+    cursor: pointer;
+}
+
+.desplegar .harticle{
+    background-color: #000;
+    color: #fff;
 }
 

@@ -15,7 +15,7 @@ console.log(Ejercicio.length);
 console.log(ejemplo.length);
 console.log(salida.length);
 
-for (let i = 1;i < titulo_articulo.length; i++) {
+for (let i = 0;i < titulo_articulo.length; i++) {
     let cc = i+1;
     const titulo = titulo_articulo[i];
     titulo.innerHTML="Ejercicio " + cc;
@@ -23,8 +23,10 @@ for (let i = 1;i < titulo_articulo.length; i++) {
     exercise[i].innerHTML=Ejercicio[i];
     example[i].innerHTML=ejemplo[i];
     out[i].innerHTML=salida[i];
+
+    contenedor[i].addEventListener("click",()=>{
+        contenedor[i].classList.toggle("desplegar");
+    })
+
 }
 
-contenedor.forEach(box => {
-    box.addEventListener("click",()=>{box.classList.toggle="desplegar";});
-});
